@@ -1,20 +1,26 @@
 # Caitlyn St John Psychotherapy
 
-Website for Caitlyn St John, integrative psychotherapist (MSc, MUKCP), East Devon and online.
-
 Plain HTML and CSS with no build step. Open `index.html` in a browser to preview.
 
-## Structure
+## Pages
 
-- `index.html` – home
-- `about.html` – about Caitlyn, training and qualifications
-- `how-i-work.html` – approach and what I can help with
-- `bell-tent.html` – the bell tent
-- `fees.html` – fees, practicalities and getting started
-- `contact.html` – contact
-- `images/` – portrait, bell tent photo and favicon
+| File | Page |
+|---|---|
+| `index.html` | Home |
+| `about.html` | About |
+| `how-i-work.html` | How I work, and What I can help with |
+| `services.html` | Walk & talk, Online, Bell tent |
+| `fees.html` | Fees and practicalities, Getting started |
+| `faq.html` | FAQ |
+| `contact.html` | Contact |
 
-Each page carries its own copy of the header and footer, so a change to the navigation, footer or styles needs making in all six files.
+The header and footer are repeated on every page, so a change to either (a new link, a new phone number) needs making in all seven files.
+
+## Design
+
+Uses the **Mustard & Sage** palette: cream `#EDEAE0`, paper `#F6F3EC`, mustard `#C08A34`, sunset `#DDAB8E`, terracotta `#D37E5F`, rust `#8C4A2F`, sage `#9C9E80`, olive `#626033`, and ink `#2F2C1A` for body text. Headings in Cormorant Garamond, body in Hanken Grotesk, wordmark in Gloock (all Google Fonts).
+
+Text only ever sits in ink or olive on light grounds, or cream on rust, olive and ink. Terracotta and mustard are for shapes and frames only.
 
 ## Publishing with GitHub Pages
 
@@ -22,8 +28,8 @@ Settings → Pages → Source: "Deploy from a branch" → Branch: `main`, folder
 
 ## Still to fill in
 
-- Email address: the "Email me" button in `contact.html` is commented out until there is one. Uncomment it, add the address after `mailto:`, and change "Call for a free 15-minute conversation" back to "Call or email…"
-- Insurance and supervision details
-- Privacy policy
-- Photo for the "Outside of the tent" frame in the bell tent section
-- Higher-resolution bell tent interior photo
+- Email address: search all pages for `[YOUR EMAIL]` (on `contact.html`)
+- Privacy policy: search for `[Privacy policy]` (footer of every page)
+- Nature photo for the Home hero (`index.html`, "Nature photo")
+- Nature photo for the Walk & talk card on Home and the Walk & talk section (`services.html`)
+- Higher-resolution bell tent interior photo (`images/bell-tent-interior.jpg`)

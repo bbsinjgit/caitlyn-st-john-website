@@ -42,7 +42,9 @@
     var showReeds = root.getAttribute("data-reeds") !== "false";
     var word = root.getAttribute("data-word") || "";
     var bandEl = root.querySelector("[data-murmuration-band]");
-    var flyFor = 7, formFor = 2.4, holdFor = 3.4, releaseFor = 0.8;
+    var flyFor = 5, formFor = 2.4, holdFor = 3, releaseFor = 0.8;
+    // Whole-flock speed: 1 is the original pace, 0.5 is half speed.
+    var speed = parseFloat(root.getAttribute("data-speed") || "0.5");
     var font = '700 100px "Hanken Grotesk", "Segoe UI", system-ui, sans-serif';
 
     var canvas = document.createElement("canvas");
@@ -237,7 +239,7 @@
     function frame(now) {
       requestAnimationFrame(frame);
       if (!visible) { last = now; return; }
-      var dt = Math.min(0.05, (now - last) / 1000);
+      var dt = Math.min(0.05, (now - last) / 1000) * speed;
       last = now;
       clock += dt;
       step(dt);

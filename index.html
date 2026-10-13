@@ -41,6 +41,9 @@ header nav a{white-space:nowrap;flex:0 0 auto;padding-top:9px!important;padding-
 header nav a.btn-rust{padding:7px 16px!important;margin:4px 0}
 [id]{scroll-margin-top:110px}
 }
+.hero-fade{opacity:0;animation:heroFade 24s ease-in-out 6s infinite}
+@keyframes heroFade{0%{opacity:0}17%{opacity:1}55%{opacity:1}72%{opacity:0}100%{opacity:0}}
+@media (prefers-reduced-motion: reduce){.hero-fade{animation:none}}
 </style>
 </head>
 <body>
@@ -83,6 +86,7 @@ header nav a.btn-rust{padding:7px 16px!important;margin:4px 0}
 <div style="position: relative; width: min(400px, 72vw); aspect-ratio: 4 / 5">
 <div style="position: absolute; inset: 0; border-radius: 200px 200px 20px 20px; background: #E7E4C8; border: 6px solid #C08A34; overflow: hidden; box-sizing: border-box">
 <img src="images/woodland-lane.jpg" alt="A quiet country lane under a canopy of trees, dappled with sunlight" style="width: 100%; height: 100%; object-fit: cover; object-position: 50% 60%; display: block">
+<img class="hero-fade" src="images/woodland-path.jpg" alt="" aria-hidden="true" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 33% 60%; display: block">
 </div>
 </div>
 </div>

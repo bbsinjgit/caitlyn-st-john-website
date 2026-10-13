@@ -247,6 +247,14 @@
     }
 
     layout();
+    // Begin the cycle with the word already formed and holding.
+    if (tx.length) {
+      clock = flyFor + formFor;
+      for (var b0 = 0; b0 < n; b0++) {
+        var t0 = target[b0];
+        if (t0 >= 0) { px[b0] = tx[t0]; py[b0] = ty[t0]; vx[b0] = 0; vy[b0] = 0; }
+      }
+    }
     if (reduced) {
       // Settle the flock into a natural shape once, then draw it still.
       clock = flyFor + formFor + 0.1;

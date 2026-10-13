@@ -41,5 +41,4 @@ Settings → Pages → Source: "Deploy from a branch" → Branch: `main`, folder
 - Email address: search for `[YOUR EMAIL]` (on `contact.html`)
 - Contact form ID: replace `YOUR_FORM_ID` (see Contact form above)
 - Privacy policy: search for `[Privacy policy]` (footer of every page)
-- Nature photo for the Home hero (`index.html`, "Nature photo")
 - Higher-resolution bell tent interior photo (`images/bell-tent-interior.jpg`)

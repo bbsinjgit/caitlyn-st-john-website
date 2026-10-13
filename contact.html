@@ -97,7 +97,7 @@ header nav a.btn-rust{padding:7px 16px!important;margin:4px 0}
 <span style="color: #4A4628">A bell tent between Tipton St John and Newton Poppleford, East Devon. Also online, and walk &amp; talk.</span>
 </div>
 </div>
-<form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" style="flex: 1.5 1 440px; background: #FBF5EB; border-radius: 20px; padding: clamp(24px, 4vw, 40px); display: flex; flex-direction: column; gap: 20px">
+<form id="enquiry" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" style="flex: 1.5 1 440px; background: #FBF5EB; border-radius: 20px; padding: clamp(24px, 4vw, 40px); display: flex; flex-direction: column; gap: 20px">
 <input type="hidden" name="_subject" value="New enquiry from caitlynstjohn website">
 <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true" style="position: absolute; left: -9999px">
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px">
@@ -116,6 +116,10 @@ header nav a.btn-rust{padding:7px 16px!important;margin:4px 0}
 <button type="submit" class="btn-rust" style="align-self: flex-start; border: 0; cursor: pointer; background: #8C4A2F; color: #FBF5EB; font: inherit; font-weight: 500; padding: 15px 34px; border-radius: 999px">Send message</button>
 <p style="margin: 0; font-size: 14px; color: #626033">This form isn’t checked for emergencies. If you need urgent help, call NHS 111 (option 2), Samaritans on 116 123, or 999.</p>
 </form>
+<div id="enquiry-thanks" hidden tabindex="-1" style="flex: 1.5 1 440px; background: #FBF5EB; border-radius: 20px; padding: clamp(28px, 4vw, 44px); display: flex; flex-direction: column; gap: 14px">
+<h3 style="margin: 0; font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 500; font-size: 32px; line-height: 1.15">Thank you, your message has been sent.</h3>
+<p style="margin: 0; color: #4A4628">I’ll be in touch by email, usually within two working days. If you need urgent help in the meantime, call NHS 111 (option 2), Samaritans on 116 123, or 999.</p>
+</div>
 </div>
 
 <!-- Footer -->
@@ -154,5 +158,19 @@ header nav a.btn-rust{padding:7px 16px!important;margin:4px 0}
 </div>
 
 </div>
+<script>
+(function(){
+  var f=document.getElementById('enquiry'), t=document.getElementById('enquiry-thanks');
+  if(!f||!window.fetch) return;
+  f.addEventListener('submit',function(e){
+    e.preventDefault();
+    var b=f.querySelector('button[type=submit]'); b.disabled=true; b.textContent='Sending…';
+    fetch(f.action,{method:'POST',body:new FormData(f),headers:{'Accept':'application/json'}})
+      .then(function(r){ if(!r.ok) throw r; f.hidden=true; f.style.display='none'; t.hidden=false; t.focus(); })
+      .catch(function(){ b.disabled=false; b.textContent='Send message';
+        alert('Sorry, your message could not be sent. Please try again, or use the Email me button.'); });
+  });
+})();
+</script>
 </body>
 </html>

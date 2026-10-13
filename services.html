@@ -37,6 +37,8 @@ header nav a{white-space:nowrap;flex:0 0 auto;padding-top:9px!important;padding-
 header nav a.btn-rust{padding:7px 16px!important;margin:4px 0}
 [id]{scroll-margin-top:110px}
 }
+/* Bird effect: switched off. To turn it back on, rename data-murmuration-off to data-murmuration on the #walk section. */
+[data-murmuration-off] [data-murmuration-band]{height:clamp(64px,8vw,112px)!important}
 </style>
 </head>
 <body>
@@ -87,7 +89,7 @@ header nav a.btn-rust{padding:7px 16px!important;margin:4px 0}
 </div>
 
 <!-- A. Walk & talk -->
-<div id="walk" data-murmuration data-ink="#626033" data-word="walk &amp; talk" style="background: #E7E4C8">
+<div id="walk" data-murmuration-off data-ink="#626033" data-word="walk &amp; talk" style="background: #E7E4C8">
 <div data-murmuration-band aria-hidden="true" style="height: clamp(150px, 20vw, 250px)"></div>
 <div style="max-width: 1160px; margin: 0 auto; padding: 0 clamp(20px, 5vw, 64px) clamp(64px, 8vw, 112px); display: flex; flex-wrap: wrap; align-items: flex-start; gap: 48px 80px">
 <div style="flex: 1 1 300px; display: flex; justify-content: center">

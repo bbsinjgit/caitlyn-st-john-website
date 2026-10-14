@@ -45,7 +45,7 @@
     var flyFor = 5, formFor = 2.4, holdFor = 5, releaseFor = 0.8; // simulated seconds; real time = these / speed
     // Whole-flock speed: 1 is the original pace, 0.5 is half speed.
     var speed = parseFloat(root.getAttribute("data-speed") || "0.5");
-    var font = '700 100px "Hanken Grotesk", "Segoe UI", system-ui, sans-serif';
+    var font = '500 100px Jost, "Segoe UI", system-ui, sans-serif';
 
     var canvas = document.createElement("canvas");
     canvas.setAttribute("aria-hidden", "true");

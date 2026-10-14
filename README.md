@@ -28,7 +28,7 @@ Uses a softened **Mustard, Olive & Rust** palette on a warm dusty-rust ground, w
 - Text: ink `#33332A`, body `#55534A`, muted olive `#5E5E46` for labels
 - Buttons and links: dusty rust `#7F5545` (hover `#6E4A3C`); on olive bands, parchment buttons with rust text
 
-Headings in Cormorant Garamond, body in Hanken Grotesk, name in Gloock (all Google Fonts).
+Headings and the name in Marcellus, body text in Jost (both Google Fonts).
 
 ## Contact form
 

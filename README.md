@@ -18,12 +18,13 @@ The header and footer are repeated on every page, so a change to either (a new l
 
 ## Design
 
-Uses a softened **Mustard, Olive & Rust** palette: mostly a very light dusty rust, with low-saturation colour used sparingly so the site feels peaceful.
+Uses a softened **Mustard, Olive & Rust** palette: mostly a light dusty rust, with low-saturation colour used sparingly so the site feels peaceful.
 
-- Grounds: light rust `#F4EAE4` (main), paper `#FCF8F5` (cards, quiet bands), oat `#EAE0CA` (Ways to work with me, Getting started), pale sage `#DAD8C5` (approach cards band, bell tent)
-- Deep bands: muted olive `#66664E` (free first conversation), dusty rust `#875C4B` (contact), footer olive-charcoal `#3D3D30`
-- Text: ink `#33332A`, body `#55534A`, muted olive `#5E5E46` for labels; light text on deep bands in light rust or paper
-- Buttons and links: dusty rust `#875C4B` (hover `#6E4A3C`); soft mustard `#BF9F62` only for photo frames, underlines and focus rings, never text
+- Grounds: light rust `#EDDFD6` (main), parchment `#F7EEE4` (cards, quiet bands), oat `#EAE0CA` (Ways to work with me, Getting started), light olive `#C9C6A6` (approach cards band, bell tent; ink text only)
+- Deep bands: muted olive `#66664E` (free first conversation), dusty rust `#7F5545` (contact), footer olive-charcoal `#3D3D30`
+- Text: ink `#33332A`, body `#55534A`, muted olive `#5E5E46` for labels; light text on deep bands in light rust or parchment
+- Buttons and links: dusty rust `#7F5545` (hover `#6E4A3C`)
+- Dark mustard `#7E6026`: photo frames, accent rules, underlines, focus rings, the Home subheading, prices, step numbers and FAQ markers
 
 Headings in Cormorant Garamond, body in Hanken Grotesk, name in Gloock (all Google Fonts).
 

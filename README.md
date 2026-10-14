@@ -18,13 +18,15 @@ The header and footer are repeated on every page, so a change to either (a new l
 
 ## Design
 
-Uses a softened **Mustard, Olive & Rust** palette: mostly a light dusty rust, with low-saturation colour used sparingly so the site feels peaceful.
+Uses a softened **Mustard, Olive & Rust** palette on a warm dusty-rust ground, with colour used thoughtfully so the site feels peaceful.
 
-- Grounds: light rust `#EDDFD6` (main), parchment `#F7EEE4` (cards, quiet bands), oat `#EAE0CA` (Ways to work with me, Getting started), light olive `#C9C6A6` (approach cards band, bell tent; ink text only)
+- Grounds: warm dusty rust `#E9D4C6` (main), parchment `#F7EEE4` (cards, quiet bands), oat `#EAE0CA` (Ways to work with me)
+- Olive `#67653C`: approach-cards band, bell tent section and Fees "Getting started", always with parchment text
 - Deep bands: muted olive `#66664E` (free first conversation), dusty rust `#7F5545` (contact), footer olive-charcoal `#3D3D30`
-- Text: ink `#33332A`, body `#55534A`, muted olive `#5E5E46` for labels; light text on deep bands in light rust or parchment
-- Buttons and links: dusty rust `#7F5545` (hover `#6E4A3C`)
-- Dark mustard `#7E6026`: photo frames, accent rules, underlines, focus rings, the Home subheading, prices, step numbers and FAQ markers
+- Mustard: true mustard `#C9A032` for photo frames, rules and underlines (and the "Free" card on Fees, with ink text); deep mustard `#6E550A` for mustard-coloured text and focus rings
+- Fees cards: rust, mustard, oat and parchment
+- Text: ink `#33332A`, body `#55534A`, muted olive `#5E5E46` for labels
+- Buttons and links: dusty rust `#7F5545` (hover `#6E4A3C`); on olive bands, parchment buttons with rust text
 
 Headings in Cormorant Garamond, body in Hanken Grotesk, name in Gloock (all Google Fonts).
 

@@ -18,11 +18,11 @@ The header and footer are repeated on every page, so a change to either (a new l
 
 ## Design
 
-Uses a softened **Mustard, Olive & Rust** palette: mostly cream, with low-saturation colour used sparingly so the site feels peaceful.
+Uses a softened **Mustard, Olive & Rust** palette: mostly a very light dusty rust, with low-saturation colour used sparingly so the site feels peaceful.
 
-- Grounds: cream `#F4EFE6` (main), paper `#FAF7F1` (cards, quiet bands), oat `#EAE0CA` (Ways to work with me, Getting started), pale sage `#DAD8C5` (approach cards band, bell tent)
+- Grounds: light rust `#F4EAE4` (main), paper `#FCF8F5` (cards, quiet bands), oat `#EAE0CA` (Ways to work with me, Getting started), pale sage `#DAD8C5` (approach cards band, bell tent)
 - Deep bands: muted olive `#66664E` (free first conversation), dusty rust `#875C4B` (contact), footer olive-charcoal `#3D3D30`
-- Text: ink `#33332A`, body `#55534A`, muted olive `#5E5E46` for labels; light text on deep bands in cream or paper
+- Text: ink `#33332A`, body `#55534A`, muted olive `#5E5E46` for labels; light text on deep bands in light rust or paper
 - Buttons and links: dusty rust `#875C4B` (hover `#6E4A3C`); soft mustard `#BF9F62` only for photo frames, underlines and focus rings, never text
 
 Headings in Cormorant Garamond, body in Hanken Grotesk, name in Gloock (all Google Fonts).

@@ -18,16 +18,14 @@ The header and footer are repeated on every page, so a change to either (a new l
 
 ## Design
 
-Uses the **Mustard, Olive & Rust** palette in a dark scheme: deep grounds with light text. Forest green is the base; other shades rotate section by section so no two neighbouring sections match.
+Uses a softened **Mustard, Olive & Rust** palette: mostly cream, with low-saturation colour used sparingly so the site feels peaceful.
 
-- Base ground and header: forest `#3B3A1D`
-- Rotating sections: olive `#626033`, umber `#3A3024` (warm dark brown), tobacco `#544329` (deep mustard-brown), russet `#6E4A37` (softened rust for contact, free first conversation and getting started)
-- Cards and tags contrast with the section they sit on (olive cards on tobacco, tobacco cards on olive, olive tags on umber; FAQ panels alternate olive and tobacco)
-- Footer: bark `#2A2614`
-- Text: linen `#F5EEE1`, soft linen `#E6DDCA` (secondary), butter `#F1DFB3` (labels, links, subheadings)
-- Buttons: mustard `#C08A34` with bark text; on russet bands, butter with bark text. Form fields stay light: parchment `#FCF8F0` with bark text
+- Grounds: cream `#F4EFE6` (main), paper `#FAF7F1` (cards, quiet bands), oat `#EAE0CA` (Ways to work with me, Getting started), pale sage `#DAD8C5` (approach cards band, bell tent)
+- Deep bands: muted olive `#66664E` (free first conversation), dusty rust `#875C4B` (contact), footer olive-charcoal `#3D3D30`
+- Text: ink `#33332A`, body `#55534A`, muted olive `#5E5E46` for labels; light text on deep bands in cream or paper
+- Buttons and links: dusty rust `#875C4B` (hover `#6E4A3C`); soft mustard `#BF9F62` only for photo frames, underlines and focus rings, never text
 
-Headings in Cormorant Garamond, body in Hanken Grotesk, name in Gloock (all Google Fonts). Mustard is never used for small text on olive.
+Headings in Cormorant Garamond, body in Hanken Grotesk, name in Gloock (all Google Fonts).
 
 ## Contact form
 

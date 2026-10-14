@@ -18,9 +18,14 @@ The header and footer are repeated on every page, so a change to either (a new l
 
 ## Design
 
-Uses the **Mustard & Sage** palette: cream `#F2E9DA`, paper `#FBF5EB`, mustard `#C08A34`, sunset `#DDAB8E`, terracotta `#D37E5F`, rust `#8C4A2F`, light olive `#B0AD76` (tint `#E7E4C8`), light mustard `#EFDDB2`, olive `#626033`, and ink `#2F2C1A` for body text. Headings in Cormorant Garamond, body in Hanken Grotesk, name in Gloock (all Google Fonts).
+Uses the **Mustard, Olive & Rust** palette in a dark scheme: deep grounds with light text.
 
-Text only ever sits in ink or olive on light grounds, or cream on rust, olive and ink. Terracotta and mustard are for shapes and frames only.
+- Grounds: forest `#3B3A1D` (main), olive `#626033` (alternate bands and cards), mahogany `#66321D` (contact and getting-started bands), bark `#2A2614` (footer)
+- Text: linen `#F5EEE1` (headings and body), soft linen `#E6DDCA` (secondary text), butter `#F1DFB3` (labels, links, subheadings)
+- Accents: mustard `#C08A34` for buttons (with bark text), photo frames, underlines and focus rings
+- Form fields stay light: parchment `#FCF8F0` with bark text
+
+Headings in Cormorant Garamond, body in Hanken Grotesk, name in Gloock (all Google Fonts). Mustard is never used for small text on olive.
 
 ## Contact form
 

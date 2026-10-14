@@ -21,10 +21,10 @@ The header and footer are repeated on every page, so a change to either (a new l
 Uses a softened **Mustard, Olive & Rust** palette on a warm dusty-rust ground, with colour used thoughtfully so the site feels peaceful.
 
 - Grounds: warm dusty rust `#E9D4C6` (main), parchment `#F7EEE4` (cards, quiet bands), walnut `#5A4334` (Ways to work with me, with parchment heading)
-- Olive `#67653C`: approach-cards band, bell tent section and Fees "Getting started", always with parchment text
-- Deep bands: muted olive `#66664E` (free first conversation), dusty rust `#7F5545` (contact), footer olive-charcoal `#3D3D30`
-- Mustard: golden mustard `#C8962E` for photo frames, rules and underlines (and the "Free" card on Fees, with ink text); deep mustard `#75540F` for mustard-coloured text and focus rings
-- Fees cards: rust, mustard, oat and parchment
+- Olive `#66664E`: approach-cards band, free first conversation and Fees "Getting started", always with parchment text
+- Deep bands: walnut `#5A4334` (bell tent section on Services), dusty rust `#7F5545` (contact), footer olive-charcoal `#3D3D30`
+- Mustard: golden mustard `#C8962E` for photo frames, rules and underlines; deep mustard `#75540F` for mustard-coloured text and focus rings
+- Fees cards: rust (£60), walnut (Free), olive (Where) and parchment (Who)
 - Text: ink `#33332A`, body `#55534A`, muted olive `#5E5E46` for labels
 - Buttons and links: dusty rust `#7F5545` (hover `#6E4A3C`); on olive bands, parchment buttons with rust text
 
